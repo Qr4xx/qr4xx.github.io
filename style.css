@@ -22,10 +22,11 @@ body {
 
 /* Hero Section */
 .hero {
-    background:url("./img/bg.png")
+    background:url("./img/bg.png");   
     color: #ffffff;
     text-align: center;
     padding: 100px 20px;
+    background-position: center;
 }
 
 .hero .title {
