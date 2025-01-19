@@ -24,6 +24,7 @@ body {
 .hero {
     background:url("./img/bg.png");   
     color: #ffffff;
+    text-shadow:0 0 4px black;
     text-align: center;
     padding: 100px 20px;
     background-position: center;
