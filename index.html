@@ -17,6 +17,7 @@
             <h1 class="title">ANAL * CLIENT</h1>
             <p class="subtitle">Elevate Your Game. <br>Optimize Your Performance. <br>Dominate the Leaderboards.</p>
             <a onclick="download()" class="btn primary">Download Now</a>
+            <a href="https://github.com/Qr4xx/Anal-Client" class="srcLink">View source</a>
         </div>
     </header>
 
@@ -59,7 +60,6 @@
     </footer>
     <script>
         const download = () => {
-    // GitHubリポジトリのオーナーと名前を指定
     const owner = "Qr4xx";
     const repo = "Anal-Client";
 
@@ -72,7 +72,6 @@
             return response.json();
         })
         .then(data => {
-            // バージョン情報を取得して表示
             console.log(data);
             console.log(`https://github.com/Qr4xx/Anal-Client/releases/download/${data.tag_name}/Anal-Client-Setup-${data.name}.exe`)
         })
